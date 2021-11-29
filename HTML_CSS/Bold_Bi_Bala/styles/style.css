@@ -1,0 +1,276 @@
+.getsupport
+{
+    font-family: Caros;
+    font-size: 16px;
+    color: #FF4800;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-top: 16px;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.image
+{
+    width: 60px;
+    height: 55.1px;
+}
+.text
+{
+    color: #3c4d6f;
+    font-family: "Caros", Caros;
+    font-size: 16px;
+    line-height: 24px;
+}
+.heading
+{
+    color: #283a5e;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: CarosBold, sans-serif;
+}
+.number
+{
+    font-weight: 700;
+}
+.getsupportbutton
+{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 30rem;
+}
+#supporticon
+{
+    margin-left: 8px;
+    width: 16px;
+    padding-bottom: 2px;
+}
+.formheading
+{
+    color: #283a5e;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: CarosBold, sans-serif;
+    text-align: center;
+}
+.formtext
+{
+    color: #3c4d6f;
+    font-family: "Caros", Caros;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.form
+{
+    text-align: center;
+}
+.detail
+{
+    height: 50px;
+    width: 450px;
+    margin-bottom: 15px;
+    border-color: lightgray;
+}
+.detail:hover
+{
+    border-color: #FF4800;
+}
+.detail:active
+{
+    border-color: #FF4800;
+}
+input[type=submit] 
+{
+    width: 400px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0;
+    padding: 0 30px;
+    background-color: #ff6d34;
+    color: #fff;
+    border: 0;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 5%);
+    transition: all .3s;
+    outline: none;
+}
+input[type=submit]:hover
+{
+    background-color: #fff0ea;
+    color: #ff6d34;
+}
+.messagearea
+{
+    height: 125px;
+    width: 450px;
+    margin-bottom: 15px;
+    border-color: lightgray;
+}
+.messagearea:hover
+{
+    border-color: #FF4800;
+}
+.messagearea:active
+{
+    border-color: #FF4800;
+}
+#callsales
+{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 15rem;
+}
+#supportquestions
+{
+    position:absolute;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+.formblock
+{
+    position: absolute;
+    margin-left: 50rem;
+}
+#firstpart
+{
+    background-image: url("images/Vector-1.png");
+}
+#chat
+{
+    position:fixed;
+    margin-top: 42rem;
+    margin-left: 90rem;
+}
+.secondheading
+{
+    position: absolute;
+    margin-top: 47rem;
+    margin-left: 40rem;
+}
+
+.tableone
+{
+    position: absolute;
+    margin-top: 54rem;
+    margin-left: 10rem;
+}
+.tabletwo
+{
+    position: absolute;
+    margin-top: 54rem;
+    margin-left: 35rem;
+}
+.tablethree
+{
+    position: absolute;
+    margin-top: 54rem;
+    margin-left: 60rem;
+}
+.tablefour
+{
+    position: absolute;
+    margin-top: 80rem;
+    margin-left: 10rem;
+}
+.tablefive
+{
+    position: absolute;
+    margin-top: 80rem;
+    margin-left: 35rem;
+}
+.followus
+{
+    color: gray;
+    position: absolute;
+    margin-top: 105rem;
+    margin-left: 33rem;
+}
+.followimages
+{
+    position: absolute;
+    margin-top: 105rem;
+    margin-left: 43rem;
+}
+.footimage
+{
+    position: absolute;
+    margin-top: 120rem;
+    margin-left: 10rem;
+}
+.foothead
+{
+    font-weight: bolder;
+}
+.foottextone
+{
+    position: absolute;
+    margin-top: 118rem;
+    margin-left: 40rem;
+}
+.foottexttwo
+{
+    position: absolute;
+    margin-top: 118rem;
+    margin-left: 55rem;
+}
+.foottextthree
+{
+    position: absolute;
+    margin-top: 118rem;
+    margin-left: 70rem;
+}
+.foottextfour
+{
+    position: absolute;
+    margin-top: 125rem;
+    margin-left: 40rem;
+}
+.foottextfive
+{
+    position: absolute;
+    margin-top: 129rem;
+    margin-left: 55rem;
+}
+.foottextsix
+{
+    position: absolute;
+    margin-top: 127rem;
+    margin-left: 70rem;
+}
+.footfollowimages
+{
+    height: auto;
+    width: 1.5rem;
+}
+.foottextseven
+{
+    position: absolute;
+    margin-top: 132rem;
+    margin-left: 70rem;
+}
+.copyright
+{
+    position: absolute;
+    margin-top: 145rem;
+    margin-left: 25rem;
+}
+.colorred
+{
+    color:#FF4800;
+}
+.colorred:hover
+{
+    color:brown;
+}
+.tableheading
+{
+    color: #283a5e;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: CarosBold, sans-serif;
+}
+.hoverred:hover
+{
+    color:#FF4800;
+}

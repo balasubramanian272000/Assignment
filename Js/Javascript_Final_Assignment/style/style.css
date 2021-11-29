@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+#NameId{
+    text-align: left;
+}
+
+span{
+    color: red;
+}
+
+#EmailId{
+    text-align: left;
+}
+
+#FatherId{
+    text-align: left;
+}
+
+#first{
+    text-align: left;
+}
+.first{
+    text-align: left;
+    margin-left: 40px;
+}
+
+.first span{
+    color: red;
+}
+
+.second{
+    text-align: right;
+    margin-right: 50px;
+}
+
+#upload{
+    color: royalblue;
+    background-color: white;
+    border: 2px solid royalblue;
+    padding : 3px;
+}
+
+.upload span{
+    color: red;
+}
+
+#click{
+    background-color: royalblue;
+    color: white;
+    padding:7px;
+    border: 2px solid whitesmoke;
+    margin-left: 50px ;
+}
+
+#spaning{
+    color: red;
+}

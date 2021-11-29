@@ -1,0 +1,72 @@
+<html>
+    <head> 
+        <link rel="stylesheet" href="style/style.css">
+        <script src = "script/main.js" ></script>
+    </head>
+    <body>
+
+        <div id="homePage">
+            <h2>Online course</h2>
+            <br>
+            <button class = "home" type="button" onclick="newUserPage()">New User Registration</button>
+            <button  class = "home" type="button" onclick="logIn()">Log In</button>
+        </div>
+
+        <div id="newUserPage">
+
+            <h3>New Registration</h3>
+            <label> User Name : </label><br><input type="text" id="newUserName">
+            <br><label
+                id="newUserNameMessage"></label><br>
+            <label> User Age : </label><br><input type="number" id="newUserAge"><br>
+            <label
+                id="newUserAgeMessage"></label><br>
+            <label> User Phone Number : </label><br><input type="number" id="newUserPhoneNumber"
+               >
+                <label id="newUserPhoneNumberMessage"></label><br>
+                <br>
+    
+            <button  id = "first" onclick="AddDetails()">Add</button>
+
+        </div>
+
+
+        <div id = "logIn">
+            <label>Log In</label>
+            <input type="text" id="existingUserId" placeholder="User Id">
+            <br>
+            <br>
+            <button type="button" id = "signup" onclick="signIn()">Sign In</button><br>
+
+        </div>
+
+        <div id="option">
+            <h2>Select the any one in the below</h2>
+            <br>
+            <button class = "course"type="button" onclick="available()">Available Course</button>
+            <br>
+            <br>
+            <button class = "course" type="button" onclick="enrolledCourse()">Enrolled Course</button>
+        </div>
+
+        <div id = "available">
+            <p>Available course<br>
+                <br>
+                <select name="languages" multiple size="4">
+                    <option onclick = "cLanguage()" value="c">c</option>
+                    <option  onclick = "csharpLanguage()" value="c#">c#</option>
+                    <option  onclick = "javaLanguage()" value="java">java</option>   
+                    <option  onclick = "pythonLanguage()" value="python">python</option>   
+                </select>
+            </p>
+    </div>
+
+    <div id = "enrolledCourse">
+        <p>Do you want to check the cart? If yes click below button (Enroll) or else click (home)</p>
+        <br>
+        <button id = "enrolle" onclick="enroll()">Enroll</button>
+        <br>
+        <button id = "homebtn" onclick="home()">Home</button>
+    </div>
+    </body>
+</html>

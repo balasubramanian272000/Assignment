@@ -1,0 +1,82 @@
+#homePage{
+    display: block;
+}
+#newUserPage{
+    display: none;
+}
+
+.home{
+    padding: 6px;
+    background-color: royalblue;
+    color: white;
+    border: solid 1px whitesmoke;
+
+}
+
+.course{
+    padding: 6px;
+    background-color: royalblue;
+    color: white;
+    border: solid 1px whitesmoke;
+}
+
+#signup{
+    padding: 6px;
+    background-color: royalblue;
+    color: white;
+    border: solid 1px whitesmoke;
+}
+
+#enrolle{
+    padding: 6px;
+    background-color: royalblue;
+    color: white;
+    border: solid 1px whitesmoke;
+
+}
+#homebtn{
+    padding: 6px;
+    background-color: royalblue;
+    color: white;
+    border: solid 1px whitesmoke;
+
+}
+
+#first{
+    padding: 6px;
+    background-color: white;
+    color: royalblue;
+    border: solid 1px royalblue;
+}
+#logIn{
+    display: none;
+}
+#option{
+    display: none;
+}
+#available{
+    display: none;
+}
+#enrolledCourse{
+    display: none;
+}
+#cLanguage{
+    display: none;
+}
+#csharpLanguage{
+    display: none;
+}
+#javaLanguage{
+    display: none;
+}
+#pythonLanguage{
+    display: none;
+}
+  
+#enroll{
+    display: bnonelock;
+}
+#home{
+    display: none;
+}
+

@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Personal Information</title>
+        <link rel="stylesheet" href = "style/style.css">
+        <script src = "javascript/script.js"></script>
+    </head>
+    <body>
+        <h1>Submit your application</h1>
+        <p>for .NET Developer(Fresher)</p>
+        <br>
+
+        <form onsubmit="return validating()" action="index.html">
+
+            <h2>Personal Information</h2>
+
+            <div>
+            <p id = "NameId">Name as per ID proof<span>*</span></p>
+            <input type="text" id="name" placeholder="Name" size="40" >
+            <label id="invaildname" style="color:red ;visibility: hidden;">Invalid</label><br>
+
+
+        <p id="EmailId">Email<span>*</span></p>
+        <input id = "Myemail" type="text" placeholder="Email Id" size="40" >
+        <label id="invaildemail" style="color:red ;visibility: hidden;">Invalid</label><br>
+
+        <p id = "FatherId">Father's Name<span>*</span></p>
+        
+        <input  id="Fathername" type="text" placeholder="Father Name" size="40" >
+
+        <label id="invaildFathername" style="color:red ;visibility: hidden;">Invalid</label><br>
+
+        <br>
+        
+        <label id = "birth" for="dob">Date of Birth<span>*</span>Invalid</label> <br>
+        <br>
+        <input id ="dateOfBirth" type="date" name="dob"> <br>
+
+        <p  id = "first">Mobile No<span>*Enter valid Mobile Number</span></p>
+        <input id = "mobile" type="number" placeholder="number" value ="" size="10" >
+
+        <label id="invaildMobileNumber" style="color:red ;visibility: hidden;">Invalid</label><br>
+
+        <p class="first">Current Address<span>*</span></p>
+        <input class="first" type="text" placeholder="Address" value="" size="40" > <input class="first" type="text" placeholder="Address Line" value="" size="40" ><br>
+        <br>
+        <input class = "first" type="text" placeholder="city" size="40" >  <br>
+
+        <p class = "first">
+            State
+               <select class = "first" name="state" >
+               
+               <option class = "first" value="">Tamil nadu</option>
+               <option class = "first" value="">Kerala</option>
+               <option class = "first" value="">Andhra Pradhesh</option>
+               <option class = "first" value="">Karnataka</option></select>
+           </p>  <p  class = "first">Pin</p>
+           <input class = "first" type="number" placeholder="pin code" value ="" size="40" ><br>
+           <br>
+
+           <p class="first">Permanent Address<span>*</span>same as current address</p>
+           <input class="first" type="text" placeholder="Address" value="" size="40" > <input class="first" type="text" placeholder="Address Line" value="" size="40" ><br>
+           <br>
+           <input class = "first" type="text" placeholder="city" size="40" >  <br>
+   
+           <p class = "first">
+               State
+                  <select class = "first" name="state" >
+                  
+                  <option class = "first" value="">Tamil nadu</option>
+                  <option class = "first" value="">Kerala</option>
+                  <option class = "first" value="">Andhra Pradhesh</option>
+                  <option class = "first" value="">Karnataka</option></select>
+              </p>  <p  class = "first">Pin</p>
+              <input class = "first" type="number" placeholder="pin code" value ="" size="40" ><br>
+              <br>
+              <p class="first">Upload profile photo<span>*</span>(JPG/PNG format only)<br>
+                Please upload photo of yourself.Ypur face should be clearly visible.Make sure the image size does not exceed 500KB</p>
+
+                <button id = "upload">UPLOAD</button><span id = spaning>Upload your profile photo</span>
+   
+    </div>
+
+</form>
+
+
+<button id = "click" type = "submit" onClick ="validating()" value="submit">Submit</button>
+
+    </body>
+</html>
